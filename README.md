@@ -227,3 +227,15 @@ Additional builds at [hipster-labs/jhipster-daily-builds](https://github.com/hip
 [npmcharts-url]: https://npmcharts.com/compare/generator-jhipster
 [gitter-badge-image]: https://badges.gitter.im/jhipster/generator-jhipster.svg
 [gitter-badge-url]: https://gitter.im/jhipster/generator-jhipster?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge
+
+
+Git commands to maintain this forked repo
+
+# fetch all remote repos and delete any deleted remote branches
+$ git fetch --all --prune
+# switch to `master` branch
+$ git checkout master
+# reset local `master` branch to match `upstream` repo's `master` branch
+$ git reset --hard upstream/master
+# push changes to your forked repo
+$ git push origin master
